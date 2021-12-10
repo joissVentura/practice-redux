@@ -1,0 +1,16 @@
+.login_btn-login{
+    background: blueviolet;
+    width: fit-content;
+    padding: 0px 10px;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+
+    &:hover{
+        background: darken(blueviolet, 15);
+    }
+
+    p{
+        color:#fff;
+    }
+}
